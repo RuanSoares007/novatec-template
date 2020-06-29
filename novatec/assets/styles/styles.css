@@ -1,0 +1,171 @@
+body, ul, li, p{
+  
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+   text-decoration:none;
+   
+}
+aside  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  
+  margin: 0px;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   background-color:#EDF2F2 ;
+   height: 150px;
+   border-top:solid #016485 5px;
+   border-bottom:solid #016485 5px;
+   flex-wrap: wrap;
+   
+}
+.header a {
+   font-size: 2.2rem;
+   padding: 20px;
+   
+   height:30px;
+   width:1200px;
+}
+.menu{
+   color: white;
+   display: flex; 
+   padding-left: 20px;
+   height: 50px;
+   border-bottom-left-radius: 50px;
+   background-color: #016485;
+   
+   
+}
+.menu li {
+  padding: 10px;   
+}
+.menu2  {
+ display:flex;
+ 
+ justify-content: center;
+ flex: 1;   
+ align-items: flex-end;
+
+ }
+
+.menu2 div{
+display:flex;
+
+margin-left: 25px;
+padding:5px;
+height: 20px;
+background-color: #BEDFE8;
+border-top-left-radius: 10px;
+border-top-right-radius: 35px;
+padding-right:10px ;
+padding-bottom: 0px;
+}
+.menu2 .home{
+  background-color: #016485;
+  color: aliceblue;
+}
+.menu2 .centro{
+  background-color: #FF6D79;
+}
+.busca{
+  background-color: #EDF2F2;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top:solid white 5px;
+  border-bottom:solid white 10px;
+  
+}
+.container {
+  
+  width: 50%; 
+  position: relative; 
+}
+
+input {
+  font-size: 1rem;
+  width: 100%;
+} 
+input,  button {
+  padding: 10px;
+}
+button {
+  position: absolute;   
+  top: 0; 
+  right: 0;
+  background-color: #016485;
+  color: aliceblue;
+  font-size: 1rem;  
+}
+.Aside_right{
+  background-color: #EDF2F2;
+  width: 170px;
+  color:#003399;
+  
+}
+ 
+.Aside_right li{
+  
+    border:1px solid white;
+    box-shadow: black;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    
+}
+.categorias{
+  background-color:#016485 ;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 900;
+  
+}
+.fique{
+  display: flex;  
+  background-color:#016485 ;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 900;
+  padding: 5px;
+  width:190px;
+  }
+
+  .caixa_lado div {
+    display: inline-flex;
+    flex-wrap:wrap;
+    width: 25px;
+    height:25px;
+    margin-top: 5px;
+    margin-inline-start: 6px;
+    margin-inline-end: 5px;
+    
+  }
+  .aside_left{
+    width: 200px;
+    background-color: #EDF2F2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+      
+  }
+.aside_left ul li{
+  font-size: x-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+.aside_left section{
+  display: flexbox;
+  justify-content: flex-end;
+}
